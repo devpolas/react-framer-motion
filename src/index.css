@@ -314,10 +314,10 @@ main {
   width: 30rem;
   max-width: 90%;
   z-index: 10;
-  animation: zoom-out-in 0.3s ease-out forwards;
+  /* animation: zoom-out-in 0.3s ease-out forwards; */
 }
 
-@keyframes zoom-out-in {
+/* @keyframes zoom-out-in {
   0% {
     transform: scale(0.8);
     opacity: 0.8;
@@ -326,7 +326,7 @@ main {
     transform: scale(1);
     opacity: 1;
   }
-}
+} */
 
 .modal h2 {
   margin-top: 0;
